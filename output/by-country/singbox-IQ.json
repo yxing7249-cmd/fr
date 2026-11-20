@@ -6,22 +6,25 @@
     {
       "type": "vless",
       "tag": "🇮🇶 IQ 01 - xiaohe",
-      "server": "arcturus.yokkastars.com",
-      "server_port": 40443,
-      "uuid": "bb0f1ed0-0298-40a1-adb1-1f5d6ab33d54",
-      "flow": "xtls-rprx-vision",
+      "server": "79.182.70.220",
+      "server_port": 443,
+      "uuid": "cda0862a-0f87-4be9-8ed8-1d0c9e382839",
       "tls": {
         "enabled": true,
-        "server_name": "deepl.com",
+        "server_name": "15b171g.nl7.h1clayd.click",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "w4AYHvQnQS6olDqoG9ptLOtgehaWOsv9HQhDax5bLA4",
-          "short_id": "db46e2946fc466fd"
+          "public_key": "zbz--PMjcIC4Ggr3j-ibDf0fzXRTj0lM_HzjPJyMkVE",
+          "short_id": "50a749f0eccb628c"
         }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "5b79e8a94241"
       }
     },
     {

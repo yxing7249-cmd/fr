@@ -4,35 +4,26 @@
   },
   "outbounds": [
     {
-      "type": "vless",
+      "type": "hysteria2",
       "tag": "🇦🇺 澳大利亚 (Australia) 01 - xiaohe",
-      "server": "144.172.65.72",
-      "server_port": 8443,
-      "uuid": "8afeb33c-b686-43e9-a629-0d98f991ec28",
-      "flow": "xtls-rprx-vision",
+      "server": "13.55.52.44",
+      "server_port": 36712,
+      "password": "linlin-2026",
       "tls": {
         "enabled": true,
-        "server_name": "www.tradingview.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "f25sygANXTpzdc9YPCwkggwSmm3piA3BluSeHdfG-hg",
-          "short_id": ""
-        }
+        "server_name": "13.55.52.44",
+        "insecure": true
       }
     },
     {
-      "type": "hysteria2",
+      "type": "trojan",
       "tag": "🇦🇺 澳大利亚 (Australia) 02 - xiaohe",
-      "server": "vpn-au-001.fastervpn.world",
+      "server": "45.63.30.142",
       "server_port": 443,
-      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
       "tls": {
         "enabled": true,
-        "server_name": "127.0.0.1",
+        "server_name": "45.63.30.142",
         "insecure": true
       }
     },
